@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # Check if the file "iacta" exists in the current working directory
 if [ -e "iacta" ]; then
     # Use awk to print the third line of the file
@@ -6,3 +7,4 @@ if [ -e "iacta" ]; then
 else
     echo "File 'iacta' not found in the current directory."
 fi
+
